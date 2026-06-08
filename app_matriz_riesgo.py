@@ -94,13 +94,15 @@ st.markdown(f"""
         background-color: {CCI_VERDE_DARK};
         color: white;
     }}
-    .stTabs [data-baseweb="tab-list"] {{
-        gap: 4px;
+   .stTabs [data-baseweb="tab-list"] {{
+        gap: 12px;
     }}
     .stTabs [data-baseweb="tab"] {{
         background-color: #f5f5f5;
         color: {CCI_GRIS};
         font-weight: 600;
+        padding: 0.5rem 1.5rem;
+        border-radius: 4px 4px 0 0;
     }}
     .stTabs [aria-selected="true"] {{
         background-color: {CCI_VERDE} !important;
