@@ -54,7 +54,7 @@ CCI_GRIS_CLARO  = "#D1D3D4"
 # SEGURIDAD — Contraseña para Configuración
 # ════════════════════════════════════════════════════════════
 # Hash SHA-256 de "cci2026" — cambiar este hash para cambiar la contraseña
-CONFIG_PASSWORD_HASH = "0db5ddc7e1066b13d62f7c4c11a64aebd5f7a7a3318cb1f9ec5e34c0c0fa3bcf"
+CONFIG_PASSWORD_HASH = "4addc8f7004cda7833a41e1bef09018670e3338ab2b06fecc28a55491ce939fe"
 
 def hash_password(p: str) -> str:
     return hashlib.sha256(p.encode()).hexdigest()
